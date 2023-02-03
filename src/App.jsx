@@ -18,29 +18,29 @@ const posts = [
     author: {
       avatarUrl: 'https://github.com/AurelianoDev.png',
       name: 'Aureliano Silva',
-      role: 'Student'
+      role: 'Student',
     },
     content: [
       { type: 'paragraph', content:'Fala galeraa 👋'},
       { type: 'paragraph', content:' Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀'},
       { type: 'link', content: 'jane.design/doctorcare'}
     ],
-    publishedAt: new Date('2023-02-03 07:00:00')
+    publishedAt: new Date('2023-01-30 20:00:00'),
   },
 
   {
     id: 2,
     author: {
-      avatarUrl: 'https://github.com/AurelianoDev.png',
+      avatarUrl: 'https://avatars.githubusercontent.com/u/96602360?v=4',
       name: 'Leafar Silva',
       role: 'teacher'
     },
     content: [
       { type: 'paragraph', content:'Fala galeraa 👋'},
-      { type: 'paragraph', content:' Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀'},
+      { type: 'paragraph', content:'  DoctorCare 🚀'},
       { type: 'link', content: 'jane.design/doctorcare'}
     ],
-    publishedAt: new Date('2023-02-06 07:00:00')
+    publishedAt: new Date('2023-02-02 20:00:00'),
   },
 ]
 
