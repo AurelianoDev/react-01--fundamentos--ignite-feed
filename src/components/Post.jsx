@@ -2,7 +2,15 @@ import { Avatar } from './Avatar'
 import { Comment } from './comment'
 import styles from './Post.module.css'
 
+/**
+ * author: {avatar_url: "", name: "", role: ""}
+ * publishedAt: Date
+ * content: String
+ */
+
 export function Post(props) {
+    console.log(props)
+
     return(
         <article className={styles.post}>
             <header>
